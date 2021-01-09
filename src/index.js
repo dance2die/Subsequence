@@ -1,7 +1,7 @@
 function subsequence() {
   return {
     validate: () => {},
-  };
+  }
 }
 
-exports.module = subsequence;
+exports.module = subsequence
