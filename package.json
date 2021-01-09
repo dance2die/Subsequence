@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "lint": "eslint . --ignore-path .gitignore",
-    "format": "prettier --write \"**/*.+(js|json)\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
   },
   "repository": {
     "type": "git",
