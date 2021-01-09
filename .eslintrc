@@ -6,11 +6,11 @@
       "jsx": false
     }
   },
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
   "rules": {
-      "strict": ["error", "never"]
+    "strict": ["error", "never"]
   },
   "env": {
-      "node": true
+    "node": true
   }
 }
