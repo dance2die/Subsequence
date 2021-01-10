@@ -1,11 +1,5 @@
-export type subsequence = () => {
-  validate: () => boolean
+function validate(): boolean {
+  throw new Error('Not implemented')
 }
 
-const subsequence: subsequence = () => {
-  return {
-    validate: () => true,
-  }
-}
-
-export default subsequence
+export { validate }

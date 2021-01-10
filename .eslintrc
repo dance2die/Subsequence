@@ -11,8 +11,10 @@
     "strict": ["error", "never"]
   },
   "env": {
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
+  "plugins": ["jest"],
   "overrides": [
     {
       "files": "**/*.+(ts|tsx)",
