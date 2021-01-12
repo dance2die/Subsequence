@@ -11,7 +11,11 @@
     "prettier": "prettier --ignore-path .gitignore  \"**/*.+(js|jsx|json|ts|tsx)\"",
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different",
-    "validate": "npm-run-all check-types test check-format lint build"
+    "validate": "npm-run-all check-types test check-format lint build",
+    "version:alpha": "npm version prerelease --preid=alpha",
+    "publish:alpha": "npm publish --tag alpha",
+    "version:beta": "npm version prerelease --preid=beta",
+    "publish:beta": "npm publish --tag beta"
   },
   "repository": {
     "type": "git",
