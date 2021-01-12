@@ -1,6 +1,6 @@
 {
   "name": "@sung/subsequence",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.2-alpha.1",
   "description": "An NPM package for checking if an array is a [subsequence](https://en.wikipedia.org/wiki/Subsequence) of another array.",
   "main": "index.js",
   "scripts": {
